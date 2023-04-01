@@ -1,5 +1,7 @@
 # Angular Environment Variables and Configurations
 
+https://www.digitalocean.com/community/tutorials/angular-environment-variables
+
 1. first run `ng g environments`
 
    1. environment.ts
