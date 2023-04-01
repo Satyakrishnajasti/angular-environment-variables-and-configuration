@@ -2,21 +2,21 @@
 
 1. first run `ng g environments`
 
-   environment.ts
-   environment.development.ts
+   1. environment.ts
+   2. environment.development.ts
 
 above two files are generated
 
-2. Open the angular.json
-   build -> production
-   "fileReplacements: [
+2. Open the angular.json file
+   1. build -> production
+   2. "fileReplacements: [
    {
    "replace": "src/environments/environment.ts",
    "with": "src/environments/environment.production.ts"
    }`
 
-3. Run the Production mode
-   go to main.ts
-   `if (environment.production) {
+3. If you want to Run the Production mode
+   1. go to main.ts, add below code
+   2. `if (environment.production) {
   enableProdMode();
 }  `
