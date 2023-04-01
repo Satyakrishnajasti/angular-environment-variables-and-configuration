@@ -1,5 +1,5 @@
 # Angular Environment Variables and Configurations
 
-# Development
+Development
 
-# Production
+Production
